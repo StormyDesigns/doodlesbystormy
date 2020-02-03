@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {color:#FF003A; font font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"}
+
+
+a:link {color:#EAD200; text-decoration: none;}
+a:visited {color:#EAD200;}
+a:hover {color:#000000;}
+a:active {color:#524D4E} 
