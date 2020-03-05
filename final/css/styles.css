@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+/*general styles*/
+img {max-width:100%; height:auto;}
+
+body {font-family: 'Roboto Mono', monospace; margin-top:0;}
+
+#wrapper {width:1280px;background-color:antiquewhite;margin-left:auto;margin-right:auto;/*margin: 0 auto;*/}
+
+header {height:154px;background-color:pink;}
+
+#logo {width: 250px; float: left;}
+
+#header-nav {background-color: blue; float: right; width:300px; height: 20px;} 
+
+#main-nav {clear:both; margin-left: auto; margin-right: auto; width: 6000px;}
+
+a {padding: 5px; font-family: 'Quicksand', sans-serif;  color: #f37522; font-size: 20px;}
+a:link {text-decoration: none; color: #f37522;}
+a:visited {text-decoration: none; color: #f37522;}
+a:hover {text-decoration: underline; color: #f37522; }
+a:active {color: #f8a36c;}
+
+/*nav style*/
+ul {list-style: none; padding-left: 0;}
+li {display: inline-block; margin-right: 50px;}
+li:last-child {margin-right: 0px;}
+
+#content {height:747px;}
+
+footer {height:76px;background-color:aqua;clear:both;}
