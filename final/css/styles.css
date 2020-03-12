@@ -4,10 +4,7 @@
 /*general styles*/
 img {max-width:100%; height:auto;}
 
-body {
-	font-family: 'Quicksand', sans-serif; 
-	margin-top:0;
-}
+body {font-family: 'Quicksand', sans-serif; margin-top:0;}
 
 #wrapper {
 width:1280px; 
@@ -101,27 +98,42 @@ ul {list-style: none; padding-left: 0;}
 li {display: inline-block; margin-right: 80px; margin-top: 40px; }
 li:last-child {margin-right: 0px;}
 
-
 /* Listed items and side navigation */
-.items-cotainer {
+.items-container /*typo*/
+{
 	display: flex;
 	align-items: flex-start;
 }
 
-.items-list {
+
+.items-list 
+{
 	width: 887px;
-	height: 1089px;
 	margin-right: 50px;
 	float: right;
-	margin-bottom: 50px;
-	background-color: blue;
+	margin-bottom: 25px;
+}
+
+.section-description {
+	text-align: center;
+}
+
+.item 
+{
+	width: 200px;/*adjust width*/
+	margin-right:30px;/*add space*/
+	float:left;/*add floats*/
+}
+
+.item-details {
+	text-align: center;
 }
 
 
 #side-nav {
 	width: 200px;
 	margin-left: 50px;
-	background-color: green;
+	float: left;
 }
 
 #side-nav li {
@@ -174,9 +186,7 @@ li:last-child {margin-right: 0px;}
 }
 
 .section-description {
-	width: 290px; 
-	margin-right: auto; 
-	margin-left: auto;
+	width: 390px; 
 	margin-top: 25px;
 }
 
@@ -200,11 +210,9 @@ li:last-child {margin-right: 0px;}
 #instagram-logo {
 	width:55px; 
 	height: 55px; 
-	margin-top: 45px; 
-	margin-top: 45px; 
 	margin-bottom: 45px; 
 	margin-right: auto;
-	 margin-left: auto;
+	margin-left: auto;
 	}
 
 #instagram-text {
