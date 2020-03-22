@@ -90,7 +90,7 @@ width: 150px;
 
 a {padding: 5px; font-family: 'Quicksand', sans-serif; font-size: 20px;}
 a:link {text-decoration: none; color: #000000;}
-a:visited {text-decoration: none; color: #f37522;}
+a:visited {text-decoration: none; color: #000000;}
 a:hover {text-decoration: underline; color: #f37522; }
 a:active {color: #f8a36c;}
 
@@ -114,17 +114,11 @@ li:last-child {margin-right: 0px;}
 	margin-right: 50px;
 	float: right;
 	margin-bottom: 25px;
-	background-color: green;
 
 }
 
 .items-list:last-child {margin-bottom: 100px;}
 
-
-.section-description {
-	margin: 0 auto;
-	background-color: yellow;
-}
 
 .item 
 {
@@ -144,6 +138,7 @@ li:last-child {margin-right: 0px;}
 	width: 200px;
 	margin-left: 50px;
 	float: left;
+	margin-top: 50px;
 }
 
 #side-nav li {
@@ -162,6 +157,9 @@ margin-bottom: 100px;
 margin-top: 150px;
 }
 
+.item-details {
+	text-align: center;
+}
 
 .item-preview {
 	width: 104px;
@@ -188,7 +186,6 @@ margin-top: 150px;
 	margin-top: 235px;
 	width: 361px;
 	height: 80px;
-	background-color: blue;
 	float: left;
 
 }
@@ -197,16 +194,18 @@ margin-top: 150px;
 	width: 49px;
 	height: 49px;
 	text-align: center;
-	background-color: orange;
 	float: left;
 	margin-right: 10px;
+	border-style: solid;
+	border-color: #F38037;
+	margin-right: 2px;
 }
 
 .add-to-cart {
 	width: 300px;
-	height: 49px;
+	height: 55px;
 	text-align: center;
-	background-color: pink;
+	background-color: #F38037;
 	float: left;
 }
 
@@ -214,7 +213,6 @@ margin-top: 150px;
 	float: right;
 	width: 516px;
 	height: 516px;
-	background-color: green;
 	float: right;
 	margin-right: 60px;
 }
@@ -223,7 +221,6 @@ margin-top: 150px;
 	width: 361px;
 	height: 418px;
 	float: right;
-	background-color: yellow;
 }
 
 
@@ -264,7 +261,6 @@ margin-top: 150px;
 }
 
 
-
 #you-might-also-like {
 	width:150px; 
 	margin-bottom: 45px;
@@ -275,7 +271,7 @@ margin-top: 150px;
 
 /* title page */
 .section-title {
-	width: 50px; 
+	text-align: center;
 	margin-right: auto; 
 	margin-left: auto;
 	margin-top: 150px;
@@ -283,15 +279,18 @@ margin-top: 150px;
 }
 
 .section-description {
+	width: 295px;
 	margin-top: 25px;
-	text-align:center;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
 }
 
 /* about page */
 #about-pic {
 	width: 1280px; 
 	height: 500px; 
-	background-color: purple;
 }
 
 #about-text {
