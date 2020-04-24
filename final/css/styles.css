@@ -6,60 +6,34 @@ img {max-width:100%; height:auto;}
 
 body {font-family: 'Quicksand', sans-serif; margin-top:0;}
 
-#wrapper {
-width:1280px; 
-background-color:white; 
-margin-left:auto; 
-margin-right:auto;
+#wrapper {max-width:1280px; background-color:white; margin-left:auto; margin-right:auto;}
+
+header {width:100%;margin:0 auto; align-items:center; margin-bottom:25px;
+background-color: white;
 }
 
-header {
-	width: 1200px;
-	margin: 0 auto;
-	height: 70px;
-	align-items: center;
-	margin-bottom: 25px;
-	background-color: white;
-
+#header 
+{
+width:100%;display:flex; flex-direction:row; align-items:center;
 }
 
-#header {
-	height: 70px;
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
+#account 
+{
+width: 100%; display:flex; justify-content:flex-end; align-items: center;
 }
 
-#account {
-	width: 100%;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
+#logo 
+{
+min-width: 250px; min-width:200px;/*add min width*/
 }
 
-#logo {
-	width: 250px; 
-	/*margin-left: 40px;*/
-
+#login-and-cart 
+{
+display: flex; align-items: center; height: 50px; width: 150px;
 }
 
-#login-and-cart {
-display: flex;
-align-items: center;
-height: 50px; 
-width: 150px;
-}
-
-
-/* Search */
-.search {
-	/*float: right; */
-	/*margin-right: 40px;  */
-	/*margin-top: 15px;*/
-}
-
-.search input[type=text] {
+.search input[type=text] 
+{
   float: right;
   padding: 6px;
   border: none;
@@ -67,33 +41,35 @@ width: 150px;
   margin-right: 16px;
 }
 
-  .search a, .search input[type=text] {
+.search a, .search input[type=text] 
+{
     float: none;
     display: block;
     text-align: left;
     width: 300px;
     margin: 0;
     padding: 14px;
-  }
+}
 
-  .search input[type=text] {
+.search input[type=text] 
+{
     border: 1px solid #ccc;
-  }
-
+}
 
 /* mainnav*/
-#main-nav {
+#main-nav 
+{
 	clear:both; 
 	margin-left: auto; 
 	margin-right: auto; 
-	width: 800px;}
+	width: 800px;
+}
 
 a {padding: 5px; font-family: 'Quicksand', sans-serif; font-size: 20px;}
 a:link {text-decoration: none; color: #000000;}
 a:visited {text-decoration: none; color: #000000;}
 a:hover {text-decoration: underline; color: #f37522; }
 a:active {color: #f8a36c;}
-
 
 /*nav style*/
 ul {list-style: none; padding-left: 0;}
@@ -103,94 +79,96 @@ li:last-child {margin-right: 0px;}
 /* Listed items and side navigation */
 .items-container
 {
-	display: flex;
-	align-items: flex-start;
+display: flex;
+align-items: flex-start;
 }
-
 
 .items-list 
 {
-	width: 887px;
-	margin-right: 50px;
-	float: right;
-	margin-bottom: 25px;
-
+width: 887px;
+margin-right: 50px;
+float: right;
+margin-bottom: 25px;
 }
 
 .items-list:last-child {margin-bottom: 100px;}
 
-
 .item 
 {
-	margin-right:30px;/*add space*/
-	flex: 1;
-	flex-basis: 200px;
-	display: inline-block;
+margin-right:30px;/*add space*/
+flex: 1;
+flex-basis: 200px;
+display: inline-block;
 }
 
-.items-table {
-	display: flex;
-	flex: 1;
-	flex-wrap: wrap;
+.items-table 
+{
+display: flex;
+flex: 1;
+flex-wrap: wrap;
 }
 
-#side-nav {
-	width: 200px;
-	margin-left: 50px;
-	float: left;
-	margin-top: 50px;
+#side-nav 
+{
+width: 200px; margin-left: 50px; float: left; margin-top: 50px;
 }
 
-#side-nav li {
-	display: block;
+#side-nav li 
+{
+display: block;
 }
-
 
 /*card details*/
 
-.full-item-details-container {
-display: flex;
-align-items: flex-start;
+.full-item-details-container 
+{
+/*display: flex;*/
+/*align-items: flex-start;*/
 margin-left: 40px;
 margin-left: 40px;
 margin-bottom: 100px;
 margin-top: 150px;
 }
 
-.item-details {
-	text-align: center;
+.item-details 
+{
+text-align: center;
 }
 
-.item-preview {
-	width: 104px;
-	height: 246px;
-	float: right;
-    margin-right: 60px;
+.item-preview 
+{
+
+width: 104px;
+height: 246px;
+float: right;
+margin-right: 60px;
 }
 
-.previews .preview1 { 
-	width: 103px;
-	height: 103px;
-	margin-bottom: 40px;
-
+.previews .preview1 
+{ 
+width: 103px;
+height: 103px;
+margin-bottom: 40px;
 }
 
-.previews .preview2 {
-	width: 103px;
-	height: 103px;
+.previews .preview2 
+{
+width: 103px;
+height: 103px;
 }
 
-.quantity-cart-container {
-	display: flex;
-	align-items: flex-start;
-	margin-top: 235px;
-	width: 361px;
-	height: 80px;
-	float: left;
-
+.quantity-cart-container 
+{
+display: flex;
+align-items: flex-start;
+margin-top: 235px;
+width: 361px;
+height: 80px;
+float: left;
 }
 
-.quantity {
+.quantity 
+{
 	width: 49px;
 	height: 49px;
 	text-align: center;
@@ -201,7 +179,8 @@ margin-top: 150px;
 	margin-right: 2px;
 }
 
-.add-to-cart {
+.add-to-cart 
+{
 	width: 300px;
 	height: 55px;
 	text-align: center;
@@ -209,76 +188,74 @@ margin-top: 150px;
 	float: left;
 }
 
-.main-image {
+.main-image 
+{
 	float: right;
 	width: 516px;
 	height: 516px;
 	float: right;
 	margin-right: 60px;
+	margin-bottom: 100px;
 }
 
-.item-description {
+.item-description 
+{
 	width: 361px;
 	height: 418px;
-	float: right;
+	float: left;
 }
 
 
-.slideshow{
+.slideshow
+{
 	width: 100%;
-	height: 500px;
-	margin-top: 150px;
+	height: auto;/*to adapt*/
+	/*margin-top: 150px;*/
 }
 
 /*featured section containing both columns and rows*/
-.featured-container {
-	margin-top: 50px;
-	max-width: 1199px;
-	margin-left: auto;
-	margin-right: auto;
-	display: flex;
+.featured-container 
+{
+margin-top: 50px; max-width: 1199px; margin-left: auto; margin-right: auto; 
+display: flex; flex-direction: column;/*so it stacks*/
 }
 
-.first {
-	flex: 1;
-	margin-right: 50px;
+.first {flex: 1;margin-right:0px;}
+.first img {width:100%;}
+.second {flex: 2;display: flex;flex-direction: column;}
+
+.second .a 
+{
+margin-bottom: 20px;
+flex: 1;
+margin-bottom: 50px;
 }
 
-.second {
-	flex: 2;
-	display: flex;
-	flex-direction: column;
+.second .b 
+{
+flex: 1;
 }
 
-.second .a {
-	margin-bottom: 20px;
-	flex: 1;
-	margin-bottom: 50px;
-}
-
-.second .b {
-	flex: 1;
-}
-
-
-#you-might-also-like {
+#you-might-also-like 
+{
 	width:150px; 
 	margin-bottom: 45px;
 	margin-left: auto; 
 	margin-right: auto;
+	clear: both;
 }
 
-
 /* title page */
-.section-title {
+.section-title 
+{
 	text-align: center;
 	margin-right: auto; 
 	margin-left: auto;
 	margin-top: 150px;
-
 }
 
-.section-description {
+.section-description 
+{
 	width: 295px;
 	margin-top: 25px;
 	text-align: center;
@@ -288,55 +265,107 @@ margin-top: 150px;
 }
 
 /* about page */
-#about-pic {
+#about-pic 
+{
 	width: 1280px; 
 	height: 500px; 
 }
 
-#about-text {
+#about-text 
+{
 	width:1197px; 
 	margin-top: 45px; 
 	margin-left: auto; 
 	margin-right: auto; 
-	text-align: center;}
-
+	text-align: center;
+}
 
 /*Instagram*/
-#instagram-logo {
+#instagram-logo 
+{
 	width:55px; 
 	height: 55px; 
 	margin-bottom: 45px; 
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 50px;
-	}
+}
 
-#instagram-text {
+#instagram-text 
+{
 	width:330px; 
 	margin-bottom: 45px;
 	margin-left: auto; 
 	margin-right: auto;
 }
 
-section {
-	width: 1199px; 
-	height: 265px; 
-	margin-right: auto; 
-	margin-left: auto; 
-	margin-bottom: 100px;
+section 
+{
+width: 1199px; 
+height: 265px; 
+margin-right: auto; 
+margin-left: auto; 
+margin-bottom: 100px;
 }
 
-.instagram-pic { margin-right: 45px; width: 260px; height: 260px; background-color: blue; float: left;}
+.instagram-pic 
+{ 
+	margin-right: 45px; 
+	width: 260px; 
+	/*height: 260px;*/
+	float: left;
+}
+/*
+.instagram-pic 
+{ 
+	margin-right: 45px; 
+	width: 260px; 
+	height: 260px; 
+	background-color: blue; 
+	float: left;
+}*/
+
 .instagram-pic:last-child {margin-right: 0px;}
 
-#content {height:747px;}
-
-
+/*#content {height:747px;}*/
 
 /*footer*/
 footer li {display: block; text-align: center; width: 150px; margin: 0 auto; margin-bottom: 10px;}
 
 #social-media {width: 150px; height: 0px; margin-right: auto; margin-left: auto; margin-bottom: 0px;}
-.social-media {width: 55px; height: 55px; margin-top: 45px; margin-right: 40px; float: left;}
+
+.social-media {width:55px; height:55px; margin-top:45px; margin-right: 40px; float: left;}
 .social-media:last-child {margin-right: 0px;}
 footer {height:200px;}
+
+@media only screen and (min-width: 768px) 
+{
+.featured-container {width:100%; flex-direction:row;}
+.first {margin-right:50px;}l
+.slideshow {margin-top:150px;}
+}
+
+@media only screen and (max-width: 768px) 
+{
+#logo {margin:0 auto;}	
+#header {width:100%; display:block; align-items:center;}
+#main-nav {width:600px;}
+nav ul {/*width: 50%; */flex-direction: column; text-align: center;}	
+section {display: flex; flex-direction: column;height:auto;/*so it adjusts*/}
+.instagram-pic {width:40%; display: flex; flex-direction: column; margin-bottom:80px;}
+footer li {width:100%;}	
+#side-nav {width: 100%; display: block; align-items: center;}
+.items-list { width: 80%; display: flex; flex-direction: column; margin-bottom: 50px;}
+.item-preview {display: flex ; flex-direction: column; height: auto;}
+.main-image { min-width: 50%; flex-direction: column; height: auto;}
+
+.item-description {display: flex; flex-direction: column; margin-bottom: 100px;}
+
+.item-preview {margin-bottom: 50px; display: flex; flex-direction: row;}
+
+
+
+#about-pic {width: 100%; display: flex; flex-direction: column; height: auto;}
+#about-text { width: 100%; display: flex; flex-direction: column; }
+}
+

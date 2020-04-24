@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+form {
+	background-color: #FDEADC;
+	yellow;width:40%;
+	margin:0 auto;
+	overflow:hidden; }
+
+input,textarea {
+	padding: 6px; 
+	border: 1px solid #ccc; 
+	border-radius: 4px;
+	margin: 5px;}
+
+label {
+	margin: 5px;
+}
+
+fieldset {
+	border:0;
+}
+
+.submit {
+	background-color:#F38037;
+	width:200px;
+	padding:10px;border:0;
+	font-size:1em;}
+
+.submit:hover {
+	background-color:#F9A26D;
+}
